@@ -656,6 +656,27 @@ body{
 
 @media (max-width: 576px){
 
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    
+    .menu-icon {
+        display: block;
+        order: 2; 
+    }
+
+    
+    .nav-left {
+        order: 1;
+        margin-left: 0;
+    }
+
+    
+    .nav-center, .nav-right {
+        display: none;
+    }
+
     .nav-left{
         margin-left: 20px;
         font-size: 22px;
