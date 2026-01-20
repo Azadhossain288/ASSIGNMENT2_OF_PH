@@ -400,6 +400,81 @@ body{
 
 
 
+#features_and_meet{
+
+    background: #1A0B2E;
+}
+
+
+.Featured-Episodes{
+    max-width: 1200px;
+    text-align: center;
+    margin:auto;
+}
+
+.ifrm{
+
+     max-width: 100%;
+     display:grid;
+     grid-template-columns: repeat(3,1fr);
+     gap:30px;
+     
+}
+
+.ifrm .ifrm-card{
+     max-width: 380px;
+     background-color: #2D144B;
+     border-radius: 24px;
+     padding-bottom: 30px;
+}
+
+
+.ifrm .ifrm-card .hc{
+     color:#fff;
+     font-size: 20px;
+     padding-bottom: 16px;
+} 
+
+.ifrm .ifrm-card .pc{
+     color:#fff;
+     font-size: 16px;
+     padding-bottom: 16px;
+} 
+
+
+
+
+.time-wrapper{
+
+    display:flex;
+    align-items: center;
+    gap:8px;
+    margin-top: 15px;
+}
+
+.time-wrapper img{
+
+    width:18px;
+    height: 18px;
+    margin-left: 8px;
+}
+
+.time-wrapper .pt{
+
+    margin: 0;
+    color: #b3b3b3;
+    font-size: 14px;
+   
+}
+
+.hfe{
+
+    padding-top: 120px;
+    padding-bottom: 10px;
+    color:#fff;
+}
+
+
 @media (max-width: 576px){
 
     .nav-left{
@@ -441,6 +516,10 @@ body{
     
     max-width: 180px;
     color:#00FF88;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
 }
 
 .icon .hd{
@@ -456,11 +535,26 @@ body{
         gap: 16px;
     }
 
+  #features_and_meet .ifrm{
 
-
+      grid-template-columns: 1fr;
+      padding:20px;
+      gap:16px;
+      align-items: center;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+  }
+    
 
 
 }
+
+
+
+
+
+
 
 
 @media (min-width: 577px) and (max-width: 992px){
