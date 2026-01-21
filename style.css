@@ -695,8 +695,25 @@ body{
     }
 
     .wrap{
-        max-width: 460px;
-    }
+
+   width: 100%;;
+   position: relative;
+   display:inline-block;
+   max-width:350px;
+   height: auto;
+   /* margin-bottom: 40px; */
+   /* margin: 0 auto 40px; */
+    
+    margin-top:100px;
+    margin-left:40px; 
+    margin-right: 40px;
+    margin-bottom: 100px; 
+
+   
+
+
+
+}
 
     .mic-img{
         width: 50%;
