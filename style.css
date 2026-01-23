@@ -21,6 +21,11 @@ body{
     padding:auto;
     
 }
+
+.menu-icon{
+
+    display:none;
+}
 .nav-left{
     
     font-size: 28px;
