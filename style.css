@@ -22,10 +22,11 @@ body{
     
 }
 
-.menu-icon{
+ .menu-icon{
 
     display:none;
-}
+
+} 
 .nav-left{
     
     font-size: 28px;
@@ -811,6 +812,11 @@ body{
          .nav-left{
         margin-left: 20px;
         font-size: 22px;
+    }
+
+    .menu-icon{
+
+        display: none;
     }
 
     .nav-right span{
